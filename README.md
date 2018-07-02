@@ -12,3 +12,5 @@ A React based Web App to find Weather of any location.
 # The server runs on the address http://localhost:3000
 
 3- Run and enter the values to get started.
+
+API used : Open Weather API.
