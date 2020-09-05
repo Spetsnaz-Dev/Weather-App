@@ -28,7 +28,7 @@ class App extends Component {
       const data = await api_call.json();
 //if user filled the form elements
       if(city && country) {
-          celsius = Math.round(0.55*(data.main.temp -32));
+          celsius = Math.round(5*(data.main.temp - 32)/9);
           this.setState({
               temperatureF: data.main.temp,
               temperatureC: celsius,
