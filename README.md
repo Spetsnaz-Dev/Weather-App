@@ -6,7 +6,9 @@ A React based Web App to find Weather of any location.
 
 1- Clone and Open the directory in your IDE.
 
-2- Run this command to start the development server -
+2- Install dependencies using <code>npm install</code>
+
+3- Run this command to start the development server -
 <code>npm start</code>
 
 # The server runs on the address http://localhost:3000
